@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Pragprog Books Onlne Store</title>
+	<%= stylesheet_link_tag "depot", :media => "all" %>
+</head>
+<body id="store">
+	<div id="banner">
+		<%= image_tag("logo.png") %>
+		<%= @page_title || "Pragmatic Bookshelf" %>
+	</div>
+	<dev id="columns">
+		<div id="side">
+			<a href="http://www..." title="Home">Home</a><br />
+			<a href="http://www.../faq" title="Questions">Questions</a><br />
+			<a href="http://www.../news" title="News">News</a><br />
+			<a href="http://www.../contact" title="Contact">Contact</a><br />
+		</div>
+	</dev>
+	<div id="main">
+		<%= yield :layout %>
+	</div>
+</body>
+</html>

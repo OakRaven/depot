@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" lang="en" />
+	<title>Products: <%= controller.action_name %></title>
+	<%= stylesheet_link_tag 'scaffold', 'depot' %>
+</head>
+<body>
+	
+	<p><%= flash[:notice] %></p>
+
+	<%= yield %>
+
+</body>
+</html>
