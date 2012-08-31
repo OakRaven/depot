@@ -13,9 +13,9 @@
 /* Styles for admin/list */
 
 #product-list .list-title {
-  color:        #244;
-  font-weight:  bold;
-  font-size:    larger;
+	color:        #244;
+	font-weight:  bold;
+	font-size:    larger;
 }
 
 #product-list .list-image {
@@ -140,7 +140,7 @@ h1 {
 }
 
 .item-price, .total-line {
-  text-align: right;  
+  text-align: right;	
 }
 
 .total-line .total-cell {
@@ -152,7 +152,7 @@ h1 {
 /* Styles for the cart in the sidebar */
 
 #cart, #cart table {
-  font-size: smaller; 
+  font-size: smaller;	
   color:     white;
 }
 
