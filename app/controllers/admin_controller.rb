@@ -1,5 +1,6 @@
 class AdminController < ApplicationController
 
+  # Logs user in.
   def login
   	if request.post?
   		user = User.authenticate params[:name], params[:password]
@@ -14,12 +15,14 @@ class AdminController < ApplicationController
 		end
   end
 
+  # Logs user out.
   def logout
     session[:user_id] = nil
     flash[:notice] = "Logged out"
     redirect_to :action => :logout
   end
 
+  # Default page.
   def index
   	@total_orders = Order.count
   end
