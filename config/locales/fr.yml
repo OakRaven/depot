@@ -1,0 +1,59 @@
+fr:
+
+  flash:
+    thanks:           "Nous vous remercions de votre achat"
+
+  layout:
+    title:            "Publications Pragmatiques"
+    side:
+      home:           "Inicial"
+      questions:      "Questions"
+      news:           "Nouvelles"
+      contact:        "Contacter"
+    cart:
+      title:          "Votre Panier"
+      button:
+        empty:        "Videz Votre Panier"
+        checkout:     "Acheter"
+
+  main:
+    title:            "Votre Catalogue Pragmatique"
+    button:
+      add:            "Ajouter au Panier"
+
+  checkout:
+    legend:           "S'il vous plaît Entrez vos détails"
+    name:             "Nom"
+    address:          "Adresse"
+    email:            "E-mail"
+    pay_type:         "Payer avec"
+    submit:           "Placez Achat"
+
+  number:
+    currency:
+      format:
+        unit:         "$"
+        precision:    2
+        separator:    ","
+        delimiter:    " "
+        format:       "%n%u"
+
+  activerecord:
+    errors:
+      template:
+        body:         "Il y avait des problèmes avec les champs suivants"
+        header:
+          one:        "1 erreur interdites cet {{model}} d'être sauvé"
+          other:      "{{count}} erreurs interdit cet {{model}} d'être sauvé"
+      messages:
+        inclusion:    "n'est pas inclus dans la liste"
+        blank:        "ne peut pas être vide"
+
+    models:
+      order:          "achat"
+    attributes:
+      order:
+        name:         "Nom"
+        address:      "Adresse"
+        email:        "E-mail"
+        pay_type:     "Payer a

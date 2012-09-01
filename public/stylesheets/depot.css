@@ -225,3 +225,8 @@ h1 {
   font-size: 12px;
   list-style: square;
 }
+
+.locale {
+  float: right;
+  margin-top: -7px;
+}
