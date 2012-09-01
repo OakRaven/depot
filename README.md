@@ -9,5 +9,8 @@ great book by Sam Ruby, David Thomas and David Heinemeier Hansson.
 - Rails 2.3.14
 - MySql 2.8.1
 
+##Sep-1-2012
+Compleated chapter 13.
+
 ##Aug-28-2012
 Completed chapter 8.
